@@ -1,127 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Q2 Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
 <body>
-     <div> 
-<div> </div>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-light border-bottom border-5 border-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Header.png" alt="logo" height="100px" width="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>    
 
-    <h1> Contacts </h1>
-  
+        <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link text-dark" href="index.html" target="_self">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="course.html" target="_self">Courses</a> </li>
+                    <li class="nav-item"> <a class="nav-link text-dark" href="contacts.html" target="_self">Contact</a> </li>
+                    <li class="nav-item"> <a class="nav-link text-dark" href="enroll.html" target="_self">Enroll</a></li>
+                    <li class="nav-item"> <a class="nav-link text-dark" href="team.html" target="_self">Our Team</a></li>
+                </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+            </form>
+        </div>
+    </nav>
 
-
-<div class="col-12 col-md-3 col-lg-3"></div>
-<div class="box"></div>
-
-<ul>
-<div class="li"></div>
-<div class="li"></div>
-<div class="li"></div>
-
-
-
-</ul>
-   
-   </div> 
-</div> 
- 
- </div>
-
-<h2 class="section-title"> School Ofice hours </h2>
-<table class="table table-bordered table-lg">
-  <thead> ... </thead>
-  <tbody> ... </tbody>
-</table>
-
-<div class="container">
-   <div class="row">
-<table class="table table-bordered">
-  <thead>
-    <tr>
-      <th>Days</th>
-      <th> Office Hours </th>
-      <th> Campuses</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Monday</td>
-      <td> 8AM-4AM </td>
-      <td> Angeles</td>
-    </tr>
-    <tr>
-      <td>Tuesdays</td>
-      <td> 8AM-4AM </td>
-      <td> Greenhills</td>
-    </tr>
-    <tr>
-      <td> Wednesday </td>
-      <td> 8AM-4AM </td>
-      <td> Sta Ana </td>
-    </tr>
-    <td>Thursday</td>
-      <td> 8AM-4AM </td>
-      <td> Las pinãs</td>
-    </tr>
-    <tr>
-      <td>Friday</td>
-      <td> 8AM-4AM </td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Saturday</td>
-      <td> 8AM-4AM </td>
-    </tr>
-    <tr>
-      <td>Friday</td>
-      <td> 8AM-4AM </td>
-    </tr>
-  </tbody>
-</table>
-   
-          
-            
+    <div style="background-image: url('Angeles\ Facade.jpg'); background-size: cover; background-repeat: no-repeat; height: 100vh;">
+    <div class="container-fluid mt-3">
+        <div class="container-fluid mt-3">
+            <div class="container p-5 mt-3 bg-light text-dark">
+                <h3> Home Page </h3><hr>
+                <p>At O.B. Montessori Center, we are dedicated to providing a nurturing environment where academic excellence, creativity, and character development flourish. Explore our innovative programs designed to prepare students for success in a rapidly changing world.</p>
+            </div>
+        </div>
+    </div>
 </div>
-
-<h2 class="section-title">Contact Us </h2>
-
-<form id="multiForm" class="contact-form" novalidate>
-  <div class="form-row">
-    <label for="fullName">Full name</label>
-    <input id="fullName" name="fullName" type="text"  placeholder="Joe Doe">
-  </div>
-
-  <div class="form-row">
-    <label for="email">Email</label>
-    <input id="email" name="email" type="email" placeholder="@Joe Doe gmail.com">
-  </div>
-
-  <div class="form-row">
-    <label for="phone">Phone</label>
-    <input id="phone" name="phone" type="tel" placeholder="67+-0000">
-  </div>
-
-
-
- 
-
-  <div class="form-row">
-    <label for="message"> message </label>
-    <textarea id="message" name="message" rows="3" placeholder="Say something..."></textarea>
-  </div>
-
-  <div class="form-row">
-    <button type="submit" class="btn">Enter</button>
-  </div>
-</form>
-
-<div id="formStatus" class="form-status"></div>
-
 </body>
 </html>
-
