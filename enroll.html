@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <title>OBMC Enroll Now</title>
+
+      <style>
+    .bg-blue { background-color: #002aff; }
+    .bg-blue .navbar-brand, .bg-blue .nav-link { color: #fff; }
+
+    
+    .navbar { padding-top: .9rem; padding-bottom: .9rem; }
+
+   
+    .msg-area { min-height: 160px; }
+    @media (min-width: 768px) { 
+      .msg-area { min-height: 320px; }
+    }
+
+    body {
+      background-image: url(Angeles\ Facade.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .main {
+      margin: 40px auto;
+      width: 1000px;
+      text-align: left;
+       background: rgba(255,255,255,0.6);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    backdrop-filter: blur(4px);
+    }
+    .centered {
+      margin: 40px auto;
+      width: 400px;
+      background: hsl(0, 0%, 100%);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .level {
+      margin: 40px auto;
+      width: 400px;
+      background: hsl(0, 0%, 100%);
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+  </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm navbar-dark bg-light border-bottom border-5 border-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Header.png" alt="logo" height="100px" width="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>    
+
+        <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link text-dark" href="index.html" target="_self">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-dark" href="course.html" target="_self">Courses</a> </li>
+                    <li class="nav-item"> <a class="nav-link text-dark" href="contacts.html" target="_self">Contact</a> </li>
+                    <li class="nav-item"> <a class="nav-link text-dark" href="enroll.html" target="_self">Enroll</a></li>
+                    <li class="nav-item"> <a class="nav-link text-dark" href="team.html" target="_self">Our Team</a></li>
+                </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search">
+                <button class="btn btn-primary" type="button">Search</button>
+            </form>
+        </div>
+    </nav>
+
+       <center><H1>Enrollment Form</H1></center> 
+       <div class="main"> 
+        <form>
+  <center><H1>Student Information </H1></center> 
+        
+  <div class="row g-3">
+    <div class="col-md-6">
+      <label class="form-label"><h4>First Name</h4></label>
+      <input type="text" placeholder="First name" class="form-control form-control-sm">
+    </div>
+    <div class="col-md-6">
+      <label class="form-label"><h4>Last Name</h4></label>
+      <input type="text" placeholder="Last name" class="form-control form-control-sm">
+    </div>
+  </div>
+
+     <div class="row g-3 mt-3">
+    <div class="col-md-6">
+      <label class="form-label"><h4>Birth Day/Month</h4></label>
+      <input type="date" class="form-control form-control-sm">
+    </div>
+
+    <div class="col-md-6">
+      <label class="form-label"><h5>Gender</h5></label>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+        <label class="form-check-label" for="male">Male</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+        <label class="form-check-label" for="female">Female</label>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <label class="form-label"><h5>Contact Number:</h5></label>
+      <input type="number" placeholder="+63" class="form-control form-control-sm">
+     </div>
+      <div class="col-md-6">
+      <label class="form-label"><h5>Email:</h5></label>
+      <input type="text" placeholder="OBMC@gmail.com" class="form-control form-control-sm">
+  </div>
+  </div>
+
+ <center><H1>Guardians Information  </H1></center> 
+  
+  <h3>Mother</h3>
+  <div class="row g-3 mt-3">
+    <div class="col-md-4">
+      <label class="form-label"><h4>Mothers's Full Name</h4></label>
+      <input type="text" placeholder="First name" class="form-control form-control-sm">
+    </div>
+    
+    <div class="col-md-4">
+      <label class="form-label"><h5>Contact Number</h5></label>
+      <input type="number" placeholder="+63" class="form-control form-control-sm">
+    </div>
+    
+    <div class="col-md-4">
+      <label class="form-label"><h5>Email</h5></label>
+      <input type="email" placeholder="OBMC@gmail.com" class="form-control form-control-sm">
+    </div>
+  </div><br>
+
+
+<h3>Father</h3>
+  <div class="row g-3 mt-3">
+    <div class="col-md-4">
+      <label class="form-label"><h4>Father's Full Name</h4></label>
+      <input type="text" placeholder="First name" class="form-control form-control-sm">
+    </div>
+    
+    <div class="col-md-4">
+      <label class="form-label"><h5>Contact Number</h5></label>
+      <input type="number" placeholder="+63" class="form-control form-control-sm">
+    </div>
+    
+    <div class="col-md-4">
+      <label class="form-label"><h5>Email</h5></label>
+      <input type="email" placeholder="OBMC@gmail.com" class="form-control form-control-sm">
+    </div>
+  </div>
+
+
+ <center><H1>Academic inormation  </H1></center> 
+<div class="row g-3 mt-3">
+  <div class="col-md-6">
+    <label class="form-label"><h5>Grade level your child will be</h5></label>
+    <select class="form-select form-select-sm">
+      <option>Select</option>
+      <option>Junior Casa</option> 
+      <option>Junior Advanced Casa</option> 
+      <option>Advanced Casa</option> 
+      <option>Primary Grade School (1-3)</option>
+      <option>Intermediate Grade School (4-6)</option>
+      <option>Junior High School (7-10)</option> 
+      <option>Senior High School (11-12)</option> 
+    </select>
+  </div>
+  
+  <div class="col-md-6">
+    <label class="form-label"><h5>Previous school</h5></label>
+    <input type="text" placeholder="School" class="form-control form-control-sm">
+  </div>
+</div>
+
+ 
+  <div class="d-flex justify-content-center" style="margin-top:20px;">
+    <div class="w-100">
+      <center><h4>Why do you wan to enrollment  ur child here? </h4></center>
+      <textarea class="form-control mb-3" rows="15" placeholder="Enter your message here"></textarea>
+
+      <div class="d-grid gap-2 d-sm-flex justify-content-center">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</form>
